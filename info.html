@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Izky & Amelia</title>
+    <style>
+        .countdown {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .qr-code {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Izky & Amelia</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">Our Story</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#event" class="nav-link">Event</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#rsvp" class="nav-link">RSVP</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Ngunduh Mantu</span>
+            </div>
+            <div class="featured-name">
+                <p>Izky Nurafli Farhan & Amelia Ayu</p>
+            </div>
+            <div class="featured-text-info">
+                <p>We are excited to invite you to our Ngunduh Mantu.</p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Save the Date</button>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/wedding.jpg" alt="wedding">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+       </section>
+
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>Our Story</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>How We Met</h3>
+                    <p>Our journey began at a friend's wedding, where we instantly connected and found a shared love for adventure and each other.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="about-info">
+                    <h3>The Proposal</h3>
+                    <p>On a beautiful sunset at our favorite beach, Izky got down on one knee and proposed. It was the happiest moment of our lives.</p>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- EVENT BOX ---------------- -->
+       <section class="section" id="event">
+          <div class="top-header">
+              <h1>Event Details</h1>
+          </div>
+          <div class="event-container">
+            <div class="event-box">
+                <i class="uil uil-calendar-alt"></i>
+                <h3>Date</h3>
+                <label id="countdown" class="countdown">November 20, 2024</label>
+            </div>
+            <div class="event-box">
+                <i class="uil uil-map-marker"></i>
+                <h3>Location</h3>
+                <img src="" id="qr-code" class="qr-code" alt="QR Code">
+            </div>
+            <div class="event-box">
+                <i class="uil uil-clock"></i>
+                <h3>Time</h3>
+                <label>Ngunduh mantu: 10:00 AM</label>
+                <label>Reception: 12:00 PM</label>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- RSVP BOX ---------------- -->
+       <section class="section" id="rsvp">
+          <div class="top-header">
+            <h1>RSVP</h1>
+            <span>Please let us know if you will be able to attend</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </section>
+    </main>
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Izky & Amelia</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">Our Story</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#event">Event</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#rsvp">RSVP</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-envelope"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Elecrown</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- QR CODE JS ----- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+
+    <script>
+        // Countdown Timer
+        const eventDate = new Date("November 20, 2024 10:00:00").getTime();
+
+        const countdownInterval = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+            if (distance < 0) {
+                clearInterval(countdownInterval);
+                document.getElementById("countdown").innerHTML = "Event has started!";
+            }
+        }, 1000);
+
+        // Generate QR Code
+        const qr = new QRious({
+            element: document.getElementById('qr-code'),
+            value: 'https://maps.google.com/?q=Nama+Gedung,Jakarta',
+            size: 150,
+        });
+    </script>
+</body>
+</html>
